@@ -1,0 +1,51 @@
+#copy_button {
+  float: right;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 2rem;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px; /* Adjust as needed */
+}
+#nodeCount {
+  max-width: 200px;
+  display: inline-block;
+}
+button {
+  display: inline-block;
+  margin-left: 10px; /* Adjust the space between input and button as needed */
+  background-color: rgb(63, 63, 219);
+  color: white;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: rgb(54, 54, 174);
+}
+
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
